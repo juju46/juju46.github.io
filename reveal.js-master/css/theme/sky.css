@@ -25,7 +25,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: normal;
-  color: #333; }
+  color: #333; 
+}
 
 ::selection {
   color: #fff;
@@ -50,12 +51,24 @@ body {
   color: rgba(255, 2, 2, 0.719);
 }
 
-#tp{
-  color: rgb(40, 97, 143);
+#small{
+  margin-top: 80px;
 }
 
+#tp{
+  color: rgb(20, 74, 119);
+  margin-bottom: 60px;
+
+}
+
+#title{
+  color: rgb(16, 63, 102);
+  margin-bottom: 60px;
+}
+
+
 #computer {
-  color: rgb(40, 97, 143);
+  color: rgba(20, 74, 119, 0.781);
 }
 
 #tie {
@@ -70,8 +83,11 @@ body {
 }
 
 #puzzle {
-  color: black;
-  font-size: 50px;
+  color: rgb(189, 131, 64);
+  font-size: 100px;
+  margin-top: 50px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.603);
 }
 /*********************************************
  * HEADERS
@@ -267,7 +283,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #333;
+  border: 2px solid #333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
