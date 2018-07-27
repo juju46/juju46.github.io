@@ -6,4 +6,4 @@ https://juju46.github.io/
 
 ## My presentation
 
-https://juju46.github.io/slides
+https://juju46.github.io/slides/
