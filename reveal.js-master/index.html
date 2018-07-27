@@ -78,8 +78,12 @@
 					</h2>
 					<p>J'ai eu location de créer moi-même un site de recette en Markdown.
 						<br/>Ce site permet de rassembler plusieurs recettes favorites de ma famille.</p>
-					<br>
+
+
 					<a href="#" class="navigate-down">
+						<p>
+							<i class="fas fa-angle-down" id='fleche'></i>
+						</p>
 						<img width="425" height="238" src="images/recette.png" alt="Down arrow">
 					</a>
 				</section>
@@ -91,6 +95,80 @@
 					</a>
 				</section>
 			</section>
+
+			<section>
+				<section>
+					<h2 id='title'>2 . &nbsp;Recettes stylées&nbsp;
+						<i class="fas fa-cookie-bite" id="cookie"></i>
+					</h2>
+					<p>J'ai également recréer le site de recette à partir d'un thème dèjà entièrement défini.
+
+						<a href="#" class="navigate-down">
+							<p>
+								<i class="fas fa-angle-down" id='fleche'></i>
+							</p>
+							<img width="425" height="238" src="images/recette2.png" alt="Down arrow">
+						</a>
+				</section>
+				<section>
+					<h2 id='title'>En savoir plus ...</h2>
+					<p>Vous pouvez accéder au site en cliquant la vignette qui suit.</p>
+					<a href="recettes2/index.html" target='blank'>
+						<i class="fas fa-puzzle-piece" id="puzzle"></i>
+					</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2 id='title'>3 . &nbsp;Carrousel&nbsp;
+						<i class="fas fa-camera-retro" id='photo'></i>
+					</h2>
+					<p>J'ai réaliser une série d'image sous forme de carrousel avec JQuery.
+
+						<a href="#" class="navigate-down">
+							<p>
+								<i class="fas fa-angle-down" id='fleche'></i>
+							</p>
+							<img width="425" height="238" src="images/carrousel.png" alt="Down arrow">
+						</a>
+				</section>
+				<section>
+					<h2 id='title'>En savoir plus ...</h2>
+					<p>Vous pouvez accéder au site en cliquant la vignette qui suit.</p>
+					<a href="carrousel/index.html" target='blank'>
+						<i class="fas fa-puzzle-piece" id="puzzle"></i>
+					</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2 id='title'>4 . &nbsp;Memory&nbsp;
+						<i class="far fa-images" id='photo'></i>
+					</h2>
+					<p>J'ai réaliser une série d'image sous forme de carrousel avec JQuery.
+
+						<a href="#" class="navigate-down">
+							<p>
+								<i class="fas fa-angle-down" id='fleche'></i>
+							</p>
+							<img width="425" height="238" src="images/carrousel.png" alt="Down arrow">
+						</a>
+				</section>
+				<section>
+					<h2 id='title'>En savoir plus ...</h2>
+					<p>Vous pouvez accéder au site en cliquant la vignette qui suit.</p>
+					<a href="carrousel/index.html" target='blank'>
+						<i class="fas fa-puzzle-piece" id="puzzle"></i>
+					</a>
+				</section>
+			</section>
+
+
+
+
+
 
 			<section>
 				<h2>Slides</h2>
@@ -438,6 +516,18 @@ Reveal.addEventListener( 'customevent', function() {
 			progress: true,
 			history: true,
 			center: true,
+
+			// Parallax background image
+			parallaxBackgroundImage: "images/back5.jpg", // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+
+			// Parallax background size
+			parallaxBackgroundSize: "1920px 1200px", // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
+
+			// Number of pixels to move the parallax background per slide
+			// - Calculated automatically unless specified
+			// - Set to 0 to disable movement along an axis
+			parallaxBackgroundHorizontal: 15,
+			parallaxBackgroundVertical: 15,
 
 			transition: 'slide', // none/fade/slide/convex/concave/zoom
 

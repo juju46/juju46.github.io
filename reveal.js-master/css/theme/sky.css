@@ -77,13 +77,21 @@ body {
 
 #cookie {
   color:#CD853F;
-  
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: black;
 }
 
+#photo{
+  color:  rgba(8, 40, 66, 0.945);
+}
+
+#fleche{
+  font-size: 70px;
+  color: rgba(8, 40, 66, 0.945);
+}
+
 #puzzle {
-  color: rgb(189, 131, 64);
+  color: rgba(11, 41, 66, 0.781);
   font-size: 100px;
   margin-top: 50px;
   -webkit-text-stroke: 2px;
