@@ -1,9 +1,9 @@
-# :sparkles: juju46.github.io
+# juju46.github.io
 
-My Website
+## My Website
 
 https://juju46.github.io/
 
-My presentation
+## My presentation
 
-https://juju46.github.io/reveal.js-master
+https://juju46.github.io/slides
