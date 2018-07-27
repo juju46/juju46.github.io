@@ -90,6 +90,18 @@ body {
   color: rgba(8, 40, 66, 0.945);
 }
 
+#pointer{
+  font-size: 30px;
+  color: rgba(8, 40, 66, 0.945);
+}
+
+#smile{
+  font-size: 35px;
+  color: rgba(255, 208, 0, 0.945);
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
 #puzzle {
   color: rgba(11, 41, 66, 0.781);
   font-size: 100px;
