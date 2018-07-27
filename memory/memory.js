@@ -57,7 +57,7 @@ $(document).ready(function () {
             speed: 100,
             onAnimation: function () {
                 console.log('onEnd')
-                $card.css('background-image', 'url(img/cards/' + noImage + '.png)')
+                $card.css('background-image', 'url(img/' + noImage + '.png)')
             }
         })
 

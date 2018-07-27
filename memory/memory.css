@@ -1,7 +1,13 @@
 body {
 	padding-top: 80px;
 	padding-bottom: 40px;
+	background-image: url(img/back/back3.png);
+	background-size: 2400px 1200px;
 }
+body, #score h1, #tries h1, #game h1{
+	font-family: 'Righteous', cursive;
+}
+
 
 #play-again {
 	clear: both;
@@ -9,9 +15,19 @@ body {
 }
 
 #game {
-	width: 750px;
-	border: 0px solid #CCC;
-	background-color: #FFF;
+	width: 1700px;
+	margin-top: 50px;
+	margin-bottom: 1000px;
+	color: #cf2929;
+}
+
+#navbar2{
+	background-color: #cf2929da;
+	border-color: #cf2929da;
+}
+
+#game h1{
+	color: #cf2929;
 }
 
 #board {
@@ -21,7 +37,13 @@ body {
 #score, #tries {
     position: fixed;
     top: 0;
-    margin-top: 25px;
+	margin-top: 25px;
+	background-color: rgb(253, 233, 119);
+	border-color: rgb(253, 233, 119);
+}
+
+#score h1, #tries h1{
+	color: #cf2929;
 }
 
 #tries {
@@ -29,20 +51,24 @@ body {
 }
 
 .card {
-	width: 66px;
-	height: 66px;
+	width: 134px;
+	height: 134px;
 	border: 2px solid #FFF;
 	background-repeat: no-repeat;
 	background-color: #EEE;
 	float: left;
-	background-image: url(img/back/back6.png)
+	background-image: url(img/back/back2.png);
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .try {
-	border: 2px solid #8380fe;
+	border: 4px solid #ffd828;
+	border-radius: 5px;
 }
 
 .found {
-	border: 2px solid #adffa5;
+	border: 4px solid #cf2929;
+	border-radius: 5px;
 }
 
